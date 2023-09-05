@@ -7,7 +7,6 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-
 }
 
 .container {
@@ -51,6 +50,8 @@
     height: 4.063em;
     background-image: linear-gradient(to left, #00f490 0%, #6723a5 60%);
     box-shadow: 0 0.125em 0.25em 0 rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
 }
 
 .navbar1 #logo {
@@ -87,7 +88,7 @@
     height: 100vh;
     background-color: #00CC5B;
     font-size: 20px;
-    position: absolute;
+    position: fixed;
 }
 
 .menu ul {
@@ -339,10 +340,9 @@
     font-weight: bolder;
 }
 
-.section3 .about3 a {
+.section3 .about3 button {
     padding: 12px 18px;
     background-color: #fff;
-    color: #00D25E;
     border: 1px solid #00D25E;
     margin-top: 15px;
     border-radius: 10px;
@@ -354,7 +354,10 @@
     font-weight: bolder;
     font-size: 18px;
     cursor: pointer;
-    position: absolute;
+}
+.section3 .about3 button a{
+    color: #00D25E;
+
 }
 
 .section4 {
@@ -612,6 +615,7 @@ form input {
     margin-top: 20px;
     width: 45%;
     margin-left: 20px;
+    font-size: 20px;
 }
 
 #sub {
@@ -699,8 +703,7 @@ iframe {
     }
 
     .section2 .about2 button {
-        position: absolute;
-        right: 40%;
+        float: none;
     }
 
     .section2 .img2 {
@@ -709,7 +712,7 @@ iframe {
 
     .p {
         text-align: center;
-        margin-top: 100px;
+        margin-left: 0;
     }
 
     .p p {
@@ -725,14 +728,15 @@ iframe {
 
     .section3 {
         text-align: center;
-        height: 450px;
+        height: 350px;
     }
 
     .section3 .about3 a {
         width: 100%;
         left: 0;
     }
-    .section4 .about4{
+
+    .section4 .about4 {
         float: none;
         width: 100%;
     }
@@ -768,21 +772,28 @@ iframe {
     }
 
     .section7 form {
-        width: 100%;
+        width: 85%;
         margin: 20% 0 0 0;
         height: auto;
+        display: inline-block;
+        margin-bottom: 40px;
     }
 
     .section7 form input {
-        width: 100%;
-        margin: 30px 0 0 0;
+        width: 85%;
+        display: inline-block;
+        margin-left: 0;
     }
 
     #sub {
         margin-bottom: 40px;
         left: 0;
-        width: 100%;
+        width: 85%;
         margin-top: 30px;
+    }
+    .navbar2{
+        margin-bottom: 50px;
+        margin-top: 5%;
     }
 }
 
@@ -805,8 +816,7 @@ iframe {
     }
 
     .section2 .about2 button {
-        position: relative;
-        right: 40%;
+        float: none;
     }
 
     .section1 .imge img {
@@ -830,7 +840,7 @@ iframe {
 
     .section3 {
         text-align: center;
-        height: 450px;
+        height: 350px;
     }
 
 
@@ -841,10 +851,12 @@ iframe {
     .section3 .about3 a {
         width: 100%;
     }
-.section4 .about4{
-    float: none;
-    width: 100%;
-}
+
+    .section4 .about4 {
+        float: none;
+        width: 100%;
+    }
+
     .section6 {
 
         height: 1400px;
@@ -867,28 +879,42 @@ iframe {
     }
 
     .section7 form {
-        width: 100%;
+        width: 90%;
         margin: 20% 0 0 0;
         height: auto;
+        display: inline-block;
+        margin-bottom: 40px;
     }
 
     .section7 form input {
-        width: 100%;
+        width: 90%;
         margin: 30px 0 0 0;
+        display: inline-block;
     }
 
     .section7 form #sub {
         margin-bottom: 50px;
+        width: 90%;
+    }
+    .navbar2{
+        margin-bottom: 30px;
+        margin-top: 5%;
     }
 
     .navbar2 #logooo {
         float: none;
         margin-left: 45%;
     }
-
+    .navbar2 ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .navbar2 ul li {
-        margin-left: 20px;
+        margin-left: 28px;
         margin-top: 20px;
+        width: 100%;
+        margin-bottom: 40px;
     }
 
     .our-work {

@@ -8,6 +8,7 @@ onload=function(){
     closee.classList.add('hide')
 }
 
+
 openn.onclick=function(){
     menu.classList.remove("hide")
     closee.classList.remove("hide")

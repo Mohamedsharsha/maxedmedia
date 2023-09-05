@@ -25,10 +25,11 @@
     <button id="up"><img src="arrow.png"></button>
 
 
-    <div class="navbar1">
+    <div class="navbar1 sticky-top">
         <button id="open"><img src="menu.png" id="menu_img"></button>
         <button id="close" class="hide"><img src="close(1).png" id="close_img"></button>
-        <button id="start_now"><a href="https://www.facebook.com/profile.php?id=100094893336449" target="_blank">ابدأ الان</a></button>
+        <button id="start_now"><a  href="https://www.facebook.com/profile.php?id=100094893336449" target="_blank">ابدأ
+                الان</a></button>
         <img src="WhatsApp Image 2023-08-26 at 12.03.12 AM.jpeg" id="logo">
     </div>
     <div class="menu">
@@ -110,7 +111,7 @@
                 <p>تُعزز جودة خدمات ماكست بفضل فريقها المتميز من المبدعين والمتخصصين في مجالات التصميم الجرافيكي، وتطوير
                     المواقع، وإدارة الحملات الإعلانية. يعمل هؤلاء الخبراء بتفانٍ وشغف لتحويل رؤى العملاء إلى واقع ملموس
                     يلفت الأنظار ويثير الاهتمام</p>
-                <a href="#" target="_blank">احصل علي عرض</a>
+                <button id="offer"><a href="#" target="_blank">احصل علي عرض</a></button>
             </div>
         </div>
     </div>
@@ -124,7 +125,8 @@
 
             <div class="about4"><img src="WhatsApp Image 2023-08-29 at 8.30.57 PM.jpeg">
                 <h3 class="h3">الاستشارات الرقمية</h3>
-                <p class="h3">إذا كانت لديك ادني مشكله ، فمن الممكن أن نوفر معظم التفاصيل الخاصة بك ونتيح لك الانضمام</p>
+                <p class="h3">إذا كانت لديك ادني مشكله ، فمن الممكن أن نوفر معظم التفاصيل الخاصة بك ونتيح لك الانضمام
+                </p>
                 <a href="#" class="h3" target="_blank">اعرف المزيد ←</a>
             </div>
             <div class="about4"><img src="WhatsApp Image 2023-08-29 at 8.31.05 PM.jpeg">
@@ -202,7 +204,7 @@
                 <button id="sec7"><a href="http://wa.me/+201143793976" target="_blank">اتصل بنا</a></button>
                 <button id="sec7_1"><a href="#" target="_blank">معلومات عنا</a></button>
             </div>
-            <form  onsubmit="send_email(); reset(); return false;">
+            <form onsubmit="send_email(); reset(); return false;">
                 <div class="message">
                     <h1>أرسل لنا رسالة</h1>
                     <p>فريقنا متاح دائمًا لمساعدتك</p>
@@ -211,8 +213,8 @@
                     <h1>بريد إلكتروني</h1>
                     <p>mustafa.ayman776@gmail.com</p>
                 </div>
-                <input type="text" id="user_name" placeholder="اسم" >
-                <input type="email" id="email" placeholder="بريد الكتروني" >
+                <input type="text" id="user_name" placeholder="اسم">
+                <input type="email" id="email" placeholder="بريد الكتروني">
                 <input type="text" id="phone_number" placeholder="هاتف">
                 <button type="submit" id="sub">يرسل</button>
             </form>
@@ -242,8 +244,7 @@
 
 
     <script src="mixed.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
